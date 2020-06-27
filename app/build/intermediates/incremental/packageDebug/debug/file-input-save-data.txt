@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Sat Jun 27 18:37:11 CST 2020
+1.base=D\:\\androidProject\\HCJ_Weather\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=litepal.xml
+0.set=ASSET
+0.base=D\:\\androidProject\\HCJ_Weather\\app\\build\\intermediates\\assets\\debug
+1.path=classes.dex
