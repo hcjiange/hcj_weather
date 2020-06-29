@@ -1,6 +1,8 @@
 package cn.jjwwai.www.hcj_weather;
 
 import android.app.ProgressDialog;
+import android.companion.WifiDeviceFilter;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.text.TextUtils;
@@ -60,9 +62,6 @@ public class ChooseAreaFragment extends Fragment {
         listView = view.findViewById(R.id.list_view);
         adapter = new ArrayAdapter<>(getContext(),android.R.layout.simple_list_item_1,dataList);
         listView.setAdapter(adapter);
-        DataSupport.deleteAll(Province.class);
-        DataSupport.deleteAll(City.class);
-        DataSupport.deleteAll(County.class);
         return view;
     }
 
@@ -79,6 +78,20 @@ public class ChooseAreaFragment extends Fragment {
                 else if (currentLevel == LEVEL_CITY){
                     selectCity = cityList.get(i);
                     queryCounties();
+                }else if (currentLevel == LEVEL_COUNTY){
+                    String weatherId = countyList.get(i).getWeatherId();
+                    if (getActivity() instanceof MainActivity) {
+                        Intent intent = new Intent(getActivity(), WeatherActivity.class);
+                        intent.putExtra("weather_id", weatherId);
+                        startActivity(intent);
+                        getActivity().finish();
+                    }
+                    else if (getActivity() instanceof WeatherActivity){
+                        WeatherActivity activity = (WeatherActivity) getActivity();
+                        activity.drawerLayout.closeDrawers();
+                        activity.swipeRefresh.setRefreshing(true);
+                        activity.requestWeather(weatherId);
+                    }
                 }
             }
         });

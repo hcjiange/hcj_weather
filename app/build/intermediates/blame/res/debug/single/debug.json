@@ -16,6 +16,10 @@
         "source": "D:\\androidProject\\HCJ_Weather\\app\\src\\main\\res\\layout\\forecast_item.xml"
     },
     {
+        "merged": "D:\\androidProject\\HCJ_Weather\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_change.png.flat",
+        "source": "D:\\androidProject\\HCJ_Weather\\app\\src\\main\\res\\drawable\\ic_change.png"
+    },
+    {
         "merged": "D:\\androidProject\\HCJ_Weather\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "D:\\androidProject\\HCJ_Weather\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
@@ -28,12 +32,12 @@
         "source": "D:\\androidProject\\HCJ_Weather\\app\\src\\main\\res\\layout\\aqi.xml"
     },
     {
-        "merged": "D:\\androidProject\\HCJ_Weather\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\androidProject\\HCJ_Weather\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "D:\\androidProject\\HCJ_Weather\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "D:\\androidProject\\HCJ_Weather\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\androidProject\\HCJ_Weather\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\androidProject\\HCJ_Weather\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\androidProject\\HCJ_Weather\\app\\build\\intermediates\\res\\merged\\debug\\layout_forecast.xml.flat",

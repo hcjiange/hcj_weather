@@ -3,13 +3,24 @@
     android:layout_width="match_parent"
     android:layout_height="?actionBarSize">
 
-    <TextView
-        android:id="@+id/title_city"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:textColor="#000"
-        android:textSize="20sp"/>
+        android:orientation="horizontal"
+        android:layout_centerInParent="true">
+        <TextView
+            android:id="@+id/title_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/nav_button"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_change" />
+    </LinearLayout>
+
     <TextView
         android:id="@+id/title_update_time"
         android:layout_width="wrap_content"
