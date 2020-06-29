@@ -3,13 +3,14 @@ package cn.jjwwai.www.hcj_weather.db;
 import org.litepal.crud.DataSupport;
 
 /**
+ * @author: 黄成江
  * Created by jiange on 2020/6/27.
  */
 
 public class County extends DataSupport {//县数据信息
     private int id;//县编号
     private String countyName;//县名称
-    private int weatherId;//县天气的id
+    private String weatherId;//县天气的id
     private int cityId;//当前县所属城市的id
 
     public int getId() {
@@ -28,11 +29,11 @@ public class County extends DataSupport {//县数据信息
         this.countyName = countyName;
     }
 
-    public int getWeatherId() {
+    public String getWeatherId() {
         return weatherId;
     }
 
-    public void setWeatherId(int weatherId) {
+    public void setWeatherId(String weatherId) {
         this.weatherId = weatherId;
     }
 
@@ -43,6 +44,4 @@ public class County extends DataSupport {//县数据信息
     public void setCityId(int cityId) {
         this.cityId = cityId;
     }
-
-
 }

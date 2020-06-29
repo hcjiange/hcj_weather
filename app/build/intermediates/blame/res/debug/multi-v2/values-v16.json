@@ -4,7 +4,7 @@
             "outputFile": "D:\\androidProject\\HCJ_Weather\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jiange\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0ad4744512cee51fb8285c500d2f804c\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\jiange\\.gradle\\caches\\transforms-2\\files-2.1\\1ab39b3983fdaa6becb1fc7dcf473ffa\\support-compat-26.1.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jiange\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\763c8f95ff064ad732ae2d84a6cf4479\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\jiange\\.gradle\\caches\\transforms-2\\files-2.1\\1d67b5cd9d66be257c30d877687a2b06\\appcompat-v7-26.1.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

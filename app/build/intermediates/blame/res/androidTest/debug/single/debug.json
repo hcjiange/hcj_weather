@@ -8,12 +8,12 @@
         "source": "C:\\Users\\jiange\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\763c8f95ff064ad732ae2d84a6cf4479\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "D:\\androidProject\\HCJ_Weather\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_fade_in.xml.flat",
-        "source": "C:\\Users\\jiange\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\763c8f95ff064ad732ae2d84a6cf4479\\res\\anim\\abc_fade_in.xml"
-    },
-    {
         "merged": "D:\\androidProject\\HCJ_Weather\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v11_abc_background_cache_hint_selector_material_light.xml.flat",
         "source": "C:\\Users\\jiange\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\763c8f95ff064ad732ae2d84a6cf4479\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "D:\\androidProject\\HCJ_Weather\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_fade_in.xml.flat",
+        "source": "C:\\Users\\jiange\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\763c8f95ff064ad732ae2d84a6cf4479\\res\\anim\\abc_fade_in.xml"
     },
     {
         "merged": "D:\\androidProject\\HCJ_Weather\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_abc_ic_arrow_drop_right_black_24dp.xml.flat",

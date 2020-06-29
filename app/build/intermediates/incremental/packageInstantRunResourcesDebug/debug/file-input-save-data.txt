@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sun Jun 28 16:09:57 CST 2020
+0.baseType=DIRECTORY
+0.base=D\:\\androidProject\\HCJ_Weather\\app\\build\\intermediates\\assets\\debug
+0.path=litepal.xml
+0.set=ASSET
+count=1

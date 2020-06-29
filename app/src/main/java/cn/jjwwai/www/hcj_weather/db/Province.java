@@ -3,6 +3,7 @@ package cn.jjwwai.www.hcj_weather.db;
 import org.litepal.crud.DataSupport;
 
 /**
+ * @author: 黄成江
  * Created by jiange on 2020/6/27.
  */
 
